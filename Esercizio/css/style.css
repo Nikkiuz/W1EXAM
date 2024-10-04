@@ -18,7 +18,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-bottom: 20px
+    margin-bottom: 30px
 }
 h1{
         font-family: "Montserrat", sans-serif;
@@ -44,21 +44,24 @@ p{
     padding-left: 20px;
     padding-right: 20px;
     margin: 20px 20px;
+    padding-bottom: 30px;
 }   
 
 button{
-    background-color:  #f04c2f ;
+    border: solid 0px;
+    background-color:  #f04c2f;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: white;
     margin-bottom: 40px;
-    margin-top: 20px;
     margin-left: 160px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
-    }
+    border-radius: 5px
+    
+}
 
 h2{
     font-family: "Montserrat", sans-serif;
@@ -66,7 +69,7 @@ h2{
     font-weight: 700;
     color: #25a2c3; 
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 0px;
 }
 
@@ -82,6 +85,7 @@ h2{
 
 #grants{
     background-color: #f04c2f;
+    margin-bottom: 50px;
 }
 
 #specialh1{
@@ -106,4 +110,78 @@ h2{
     margin-top: 5px;
     padding-bottom: 40px;
     font-size: 95%;
+}
+
+#fourth{
+    border: solid 1px #dee1e3;
+    border-radius: 2%;
+}
+
+#setuppic{
+    width: 100%;
+}
+
+
+#fifth{
+    border: solid 1px #dee1e3;
+    border-radius: 2%;
+    margin-top: 50px;
+}
+
+#fifth img{
+    width: 100%;
+}
+
+#sixth{
+    border: solid 1px #dee1e3;
+    border-radius: 2%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+#sixth img{
+    width: 100%;
+}
+
+footer{
+    background-color: #25a2c3;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+}
+
+#footerh1{
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+    color: white;
+}
+
+ul li{
+    text-decoration: underline;
+    padding: 5px;
+}
+
+ul li:last-child{
+    text-decoration: none;
+}
+
+hr{
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+footer p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: smaller;
+    padding-bottom: 60px;
+}
+
+footer a{
+     color: #ffffff;
 }
