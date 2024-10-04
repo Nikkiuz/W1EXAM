@@ -18,6 +18,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-bottom: 20px
 }
 h1{
         font-family: "Montserrat", sans-serif;
@@ -42,7 +43,7 @@ p{
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 0 20px;
+    margin: 20px 20px;
 }   
 
 button{
@@ -52,10 +53,57 @@ button{
     color: white;
     margin-bottom: 40px;
     margin-top: 20px;
-    margin-left: 165px;
+    margin-left: 160px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
     }
 
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #25a2c3; 
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+#second{
+    text-align: center;
+    background-color: white;
+}
+
+#circle-image{
+    width: 70%;
+    border-radius: 50%;
+}
+
+#grants{
+    background-color: #f04c2f;
+}
+
+#specialh1{
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 10px;
+}
+
+#specialp{
+    color: white;
+}
+
+#specialh2{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-weight: 500;
+}
+
+#specialp2{
+    color: white;
+    margin-top: 5px;
+    padding-bottom: 40px;
+    font-size: 95%;
+}
