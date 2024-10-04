@@ -85,11 +85,11 @@ h2{
 }
 
 #boxpic{
-    display: inline-block;
+    display: inline;
     text-align: center;
 }
 #circleimage{
-    width: 60%;
+    width: 20%;
     border-radius: 50%;
     
 }
@@ -134,6 +134,28 @@ h2{
     margin-top: 5px;
     padding-bottom: 40px;
     font-size: 95%;
+}
+
+#third p{
+    margin: auto;
+    text-align: left;
+    padding: auto;
+}
+
+#box1 #box2 #box3{
+    display: inline-block;
+}
+
+#box1 img{
+    width: 30%;
+}
+
+#box2 img{
+    width: 30%;
+}
+
+#box3 img{
+    width: 30%;
 }
 
 #fourth{
