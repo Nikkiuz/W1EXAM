@@ -31,10 +31,9 @@ h1{
         margin-right: 40px;
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 50px;
-        padding-bottom: 30px;
-    
-    }
+        padding-top: 55px;
+        padding-bottom: 0px;       
+}
 p{
     font-family: "Open Sans", sans-serif;
     color: #393d41;
@@ -46,6 +45,10 @@ p{
     margin: 20px 20px;
     padding-bottom: 30px;
 }   
+
+p:first-child{
+    padding-bottom:5px;
+}
 
 button{
     border: solid 0px;
@@ -78,9 +81,17 @@ h2{
     background-color: white;
 }
 
+#second h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+
 #circle-image{
     width: 70%;
     border-radius: 50%;
+    margin-bottom: 20px;
 }
 
 #grants{
