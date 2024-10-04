@@ -15,6 +15,7 @@ header{
 
 #first{
     background-image: url(../images/banner.jpg);
+    /* non sono riuscito a trovare un modo per rendere il background più trasparente senza andare ad intaccare anche gli altri elementi */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

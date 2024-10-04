@@ -101,7 +101,10 @@ h2{
 
 #sidelist{
           list-style: none;
+        
 }
+
+/* non ho ancora ben chiaro come allineare gli elementi con la regola inline-block, ho avuto problemi anche per le tre immagini da affiancare */
 
 
 
